@@ -1,0 +1,24 @@
+.Input-container{
+    height: 100%;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: flex-start;
+    box-sizing: border-box;
+    font-size: 1.1vw;
+}
+input.Current-assigment{
+    --inputText-size:55%;
+    margin-top: 2%;
+    height:auto;
+    width:var(--inputText-size);
+    border-bottom-left-radius: 0.6em;
+    border-bottom-right-radius: 0.6em;
+    border-top-left-radius: 0.6em;
+    border-top-right-radius: 0.6em;
+    padding:calc(var(--inputText-size)/35);
+    font-family: Helvetica, Arial, sans-serif;
+    box-sizing: border-box;
+   
+}

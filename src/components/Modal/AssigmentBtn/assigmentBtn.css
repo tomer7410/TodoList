@@ -1,0 +1,21 @@
+.Assigment-btn-container{
+    --btn-size: 1.1vw;
+    border-radius: 1.5em;
+    justify-content: center;
+    background-color: white ;
+    display: flex;
+    height:auto;
+    width: 32%;
+    font-size:var(--btn-size);
+    padding:calc(var(--btn-size)/3) ;
+    box-sizing: border-box;
+    border:0.06em red solid
+}
+.Assigment-btn-container:hover{
+    cursor: pointer;
+    opacity: 0.9;
+}
+label.Assigment-btn:hover{
+    cursor: pointer;
+    opacity: 0.9;
+}

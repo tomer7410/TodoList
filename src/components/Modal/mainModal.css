@@ -1,0 +1,103 @@
+.Modal-container{
+    width:80%;
+    display:flex;
+    justify-content:space-around;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 2%;
+    background-color: rgb(47, 47, 48);
+    color: white;
+}
+.Modal-body{
+    width:65%;
+    height: 63%;
+    background-color: rgb(27, 26, 27);
+    overflow:hidden;
+    flex-direction: column;
+}
+.Modal-header{
+    width: 65%;
+    height: 17%;
+    display: flex;
+    background-color: rgb(27, 26, 27);
+    justify-content: center;
+    align-items: center ;
+}
+.Modal-prev-assigment-header{
+    width: 65%;
+    height: 17%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(27, 26, 27);
+}
+.Fields-container{
+    width: 85%;
+    height: 100%;
+    display: flex;
+    box-sizing: border-box;
+    margin-left: 2%;
+}
+.Prev-assigment-field-container{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    box-sizing: border-box;
+    align-items: center;
+    font-size: 1.2vw;
+    
+}
+.Exceute-btn{
+    --btn-size: 1.1vw;
+    background-color: orange;
+    color: white;
+    border-radius: 1.5em;
+    justify-content: center;
+    display: flex;
+    height:auto;
+    width: 15%;
+    margin-right: 2%;
+    font-size:var(--btn-size);
+    padding:calc(var(--btn-size)/3) 0 
+  
+}
+.Exceute-btn:hover{
+    /* background-color: aliceblue; */
+    cursor: pointer;
+    opacity: 0.9;
+}
+input{
+     --inputText-size:30%;
+    /* margin-top: 2%; */
+    height:auto;
+    width:var(--inputText-size);
+    border-bottom-left-radius: 0.6em;
+    border-bottom-right-radius: 0.6em;
+    border-top-left-radius: 0.6em;
+    border-top-right-radius: 0.6em;
+    padding:calc(var(--inputText-size)/35);
+    font-family: Helvetica, Arial, sans-serif;
+    box-sizing: border-box; 
+   
+}
+.Row-container{
+    height: 25%;
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    box-sizing: border-box;
+    border-bottom: 0.1em yellow solid;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+.Btn-container{
+    height: 100%;
+    width: 35%;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}

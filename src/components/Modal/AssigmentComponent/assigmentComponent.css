@@ -1,0 +1,16 @@
+.Assigment-container{
+    height: 80%;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: flex-start;
+    box-sizing: border-box;
+}
+label#Assigment-name{
+    font-size: 2vw;
+    color: rgb(196, 140, 35);
+}
+label#Assigment-desc{
+    font-size: 1vw;
+}

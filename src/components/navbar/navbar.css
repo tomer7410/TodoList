@@ -1,0 +1,12 @@
+.Navbar-container{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    height: fit-content;
+}
+.Router-text{
+    color:antiquewhite
+}
+.Router-text:hover{
+    color:black;
+}
