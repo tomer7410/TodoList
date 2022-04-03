@@ -1,12 +1,12 @@
 import React from 'react'
 import { MainProps } from '../../interfaces/interfaces'
-import InputComponent from './InputComponent/inputComponent'
+import InputComponent from './Header/InputComponent/inputComponent'
 import { RootState } from '../../app/store'
 import { useSelector, useDispatch } from 'react-redux'
-import { renderRightHeader } from './renderingMethods'
+import { renderRightHeader } from './Header/header'
 import "./mainModal.css"
-import AssigmentComponent from './AssigmentComponent/assigmentComponent'
-import AssigmentBtn from './AssigmentBtn/assigmentBtn'
+import AssigmentComponent from './Body/AssigmentComponent/assigmentComponent'
+import AssigmentBtn from './Body/AssigmentComponent/AssigmentBtn/assigmentBtn'
 const MainModal:React.FC<MainProps>=({style}):JSX.Element=> {
   const modalType = useSelector((state: RootState) => state.modalType.value)
   console.log(`count from main modal ${modalType}`);

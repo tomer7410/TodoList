@@ -1,4 +1,4 @@
-import { Assigment } from "../../interfaces/interfaces"
+import './header.css'
 
 export const renderRightHeader=(modalType:string="",InputComponent:any={}):JSX.Element=>{
     if(modalType=="My Todos"){
@@ -25,10 +25,3 @@ export const renderRightHeader=(modalType:string="",InputComponent:any={}):JSX.E
       )
     }
 }
-// export const renderRightBody=(modalType:string="",assigments:Array<Assigment>):JSX.Element=>{
-//   assigments.map((assigment)=>{
-//     if(modalType=="My Todos"){
-
-//     }
-//   })
-// }
