@@ -1,20 +1,19 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import MainModal from './components/Modal/mainModal'
-import Navbar from './components/navbar/navbar';
-import {ModalType} from './interfaces/interfaces'
+import {
+  Route,
+  Routes
+} from "react-router-dom";
+import MainPage from './components/MainPage/mainPage';
+import LoginPage from './components/LoginPage/loginPage'
 function App() {
   return (
     <div className="App">
-      <div className='Top-page'>
-      <h1>Welcome to My Todo App</h1>
-      <Navbar paths={["My Todos","Todo History"]}></Navbar>
-      </div> 
-      <div className="Main-page" style={{height:"d"}}>
-          <MainModal/>
-      </div>
-     
+      <Routes>
+        <Route path="/login" element={<LoginPage/>}/>
+        <Route path="/" element={<MainPage   />}/>
+      </Routes>
     </div>
   );
 }

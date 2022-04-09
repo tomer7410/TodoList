@@ -12,4 +12,3 @@ export const connectDB = async () => {
     }
 
 };
-export const getMongoose=()=>{ return mongoose}

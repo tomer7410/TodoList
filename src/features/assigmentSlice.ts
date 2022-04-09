@@ -1,5 +1,4 @@
 import { createSlice, PayloadAction } from '@reduxjs/toolkit'
-import { ModalType } from '../../interfaces/interfaces'
 export interface ModalTypeState {
   value: string
 }
@@ -8,7 +7,7 @@ const initialState: ModalTypeState = {
 }
 
 export const modalTypeSlice = createSlice({
-  name: 'modalType',
+  name: 'modalSlice',
   initialState,
   reducers: {
     setModalType: (state, action: PayloadAction<string>) => {

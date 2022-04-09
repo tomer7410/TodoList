@@ -1,8 +1,8 @@
 import React from 'react'
-import { MainProps } from '../../interfaces/interfaces'
+import { MainProps } from '../../../interfaces/interfaces'
 import InputComponent from './Header/InputComponent/inputComponent'
-import { RootState } from '../../app/store'
-import { useSelector, useDispatch } from 'react-redux'
+import { RootState } from '../../../app/store'
+import { useSelector } from 'react-redux'
 import { renderRightHeader } from './Header/header'
 import "./mainModal.css"
 import AssigmentComponent from './Body/AssigmentComponent/assigmentComponent'

@@ -1,5 +1,4 @@
 import React from 'react'
-import { Assigment } from '../../../../interfaces/interfaces'
 import './assigmentComponent.css'
 function assigmentComponent() {
   return (
